@@ -45,7 +45,7 @@ fun Content() {
         modifier = Modifier
             .fillMaxWidth()
             //remove .verticalScroll and it works as intended.
-            //.verticalScroll(rememberScrollState())
+            .verticalScroll(rememberScrollState())
     ) {
 
         val interactionSource = remember { MutableInteractionSource() }
